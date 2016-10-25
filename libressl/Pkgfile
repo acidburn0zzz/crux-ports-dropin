@@ -1,6 +1,6 @@
 # Description: LibreSSL is a version of the TLS/crypto stack forked from OpenSSL.
 # URL:         http://www.libressl.org
-# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
+# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
 # Depends on:
 
 name=libressl
