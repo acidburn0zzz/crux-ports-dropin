@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# When libressl is installed wget no longer works at first,
+# you have to rebuild it, however, downloading wget, and pretty
+# much all other ports that need to be rebuild requires wget, so
+# we'll download the sources using this pre-install.
+
+cd /usr/ports/core/wget
+pkgmk -do
