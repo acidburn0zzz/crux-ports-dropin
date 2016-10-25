@@ -17,8 +17,8 @@ build() {
 	
 	make
 	make install DESTDIR=$PKG
-	
-	ln -sf pkgconf $PKG/usr/bin/pkg-config
+
+	ln -sf /usr/bin/pkgconf $PKG/usr/bin/pkg-config
 
 	rm -rf $PKG/usr/share/doc
 }
