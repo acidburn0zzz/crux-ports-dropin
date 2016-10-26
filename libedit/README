@@ -1,0 +1,5 @@
+This is a drop in replecement for readline, make sure to uninstall readline before installing.
+
+First iinstall the bundled mawk package, after that rebuild gawk.
+Then install the bundled bash, and rebuild bash. Also manually rebuild bc.
+Finally run a `prt-get update (revdep)`.
