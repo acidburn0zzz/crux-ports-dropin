@@ -1,5 +1,5 @@
 # Description: A system for managing library compile/link flags.
-# URL:         https://github.com/sabotage-linux/gettext-tiny
+# URL:         https://github.com/pkgconf/pkgconf
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
 # Depends on:  
 
