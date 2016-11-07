@@ -1,6 +1,6 @@
 # Description: Freetype patched with the infinality patches plus a couple more.
 # URL:         https://github.com/bohoomil/fontconfig-ultimate
-# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
+# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
 # Depends on:  zlib libpng harfbuzz
 
 name=freetype-iu

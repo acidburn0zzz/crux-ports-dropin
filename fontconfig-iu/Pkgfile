@@ -1,6 +1,6 @@
 # Description: A library for configuring and customizing font access, optimized for freetype-iu.
 # URL:         https://github.com/bohoomil/fontconfig-ultimate
-# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports/issues
+# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
 # Depends on:  freetype expat gperf
 
 name=fontconfig-iu
