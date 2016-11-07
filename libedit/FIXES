@@ -1,8 +1,5 @@
 To build gnuplot, add the following flag to `./configure`:
 	--with-readline=bsd
 
-To build ncmpcpp, run the following sed commands:
-(This doesn't work yet, pls help me)
-	sed -i '/rl_resize_terminal();/d' src/actions.cpp
-	sed -i '/rl_done = 1;/d' src/window.cpp
-	sed -i 's/add_base()/add_base(const char*, int)/' src/window.cpp
+ncmpcpp doesn't build (yet), see:
+	https://github.com/arybczak/ncmpcpp/issues/160
