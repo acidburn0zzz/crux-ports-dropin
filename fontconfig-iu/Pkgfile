@@ -31,8 +31,6 @@ build() {
 		--with-xmldir=/etc/fonts \
 		--with-default-fonts=/usr/share/fonts \
 		--with-add-fonts=/usr/share/fonts \
-		--disable-static \
-		--disable-docs
 
 	make
 	make DESTDIR=$PKG install
