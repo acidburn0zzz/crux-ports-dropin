@@ -4,7 +4,7 @@
 # Depends on:  fontconfig xorg-libxext xorg-libxrender xorg-libpixman xorg-xcb-util glib
 
 name=cairo-iu
-version=1.14.6
+version=1.14.8
 release=2016-04-23 # Using forked 2016.08.18
 source=(
 	http://cairographics.org/releases/cairo-$version.tar.xz
@@ -23,17 +23,11 @@ build() {
 	done
 
 	./configure --prefix=/usr \
-		--disable-static \
-		--disable-gtk-doc \
-		--disable-lto \
-		--enable-tee \
-		--enable-gl \
-		--enable-egl \
-		--enable-svg \
+		--enable-xcb=yes \
 		--enable-ps \
 		--enable-pdf \
-		--enable-gobject \
-		--disable-gtk-doc
+		--disable-gtk-doc \
+		--enable-tee=yes
 
 	make
 	make DESTDIR=$PKG install
