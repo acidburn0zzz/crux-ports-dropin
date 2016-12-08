@@ -22,10 +22,7 @@ build() {
 
 	./configure --prefix=/usr \
 		--with-zlib \
-		--disable-nls \
-		--disable-static \
-		--with-harfbuzz \
-		--with-png
+		--disable-nls
 
 	make
 	make DESTDIR=$PKG install
