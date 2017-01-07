@@ -4,16 +4,19 @@ lrwxrwxrwx	root/root	usr/bin/pkg-config -> /usr/bin/pkgconf
 -rwxr-xr-x	root/root	usr/bin/pkgconf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pkgconf/
--rw-r--r--	root/root	usr/include/pkgconf/bsdstubs.h
--rw-r--r--	root/root	usr/include/pkgconf/iter.h
--rw-r--r--	root/root	usr/include/pkgconf/libpkgconf.h
--rw-r--r--	root/root	usr/include/pkgconf/stdinc.h
+drwxr-xr-x	root/root	usr/include/pkgconf/libpkgconf/
+-rw-r--r--	root/root	usr/include/pkgconf/libpkgconf/bsdstubs.h
+-rw-r--r--	root/root	usr/include/pkgconf/libpkgconf/iter.h
+-rw-r--r--	root/root	usr/include/pkgconf/libpkgconf/libpkgconf.h
+-rw-r--r--	root/root	usr/include/pkgconf/libpkgconf/stdinc.h
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libpkgconf.a
 -rwxr-xr-x	root/root	usr/lib/libpkgconf.la
-lrwxrwxrwx	root/root	usr/lib/libpkgconf.so -> libpkgconf.so.1.0.0
-lrwxrwxrwx	root/root	usr/lib/libpkgconf.so.1 -> libpkgconf.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libpkgconf.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libpkgconf.so -> libpkgconf.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libpkgconf.so.2 -> libpkgconf.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libpkgconf.so.2.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libpkgconf.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/aclocal/
 -rw-r--r--	root/root	usr/share/aclocal/pkg.m4
