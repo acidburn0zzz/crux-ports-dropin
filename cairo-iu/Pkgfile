@@ -5,20 +5,16 @@
 
 name=cairo-iu
 version=1.14.8
-release=2016-04-23 # Using forked 2016.08.18
+release=2017-01-11 # Using forked 2016.09.09
 source=(
 	http://cairographics.org/releases/cairo-$version.tar.xz
-	https://raw.githubusercontent.com/archfan/infinality_bundle/master/03_cairo-iu/cairo-make-lcdfilter-default.patch
-	https://raw.githubusercontent.com/archfan/infinality_bundle/master/03_cairo-iu/cairo-respect-fontconfig_pb.patch
-	https://raw.githubusercontent.com/archfan/infinality_bundle/master/03_cairo-iu/cairo-server-side-gradients.patch
-	https://raw.githubusercontent.com/archfan/infinality_bundle/master/03_cairo-iu/cairo-webkit-html5-fix.patch
-	https://raw.githubusercontent.com/archfan/infinality_bundle/master/03_cairo-iu/cairo-color-glyphs.patch
+	https://github.com/archfan/infinality_bundle/archive/2.7.1.zip
 )
 
 build() {
 	cd cairo-$version
 
-	for p in $SRC/*.patch; do
+	for p in $SRC/infinality_bundle-2.7.1/03_$name/*.patch; do
 		patch -p1 < $p
 	done
 
