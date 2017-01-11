@@ -5,9 +5,10 @@
 
 name=fontconfig-iu
 version=2.12.1
-release=2016-04-23 # Using forked 2016.08.18
+release=2017-01-11 # Using forked 2016.09.09
 source=(
 	http://fontconfig.org/release/fontconfig-$version.tar.bz2
+	https://github.com/archfan/infinality_bundle/archive/2.7.1.tar.gz
 	https://github.com/archfan/infinality_bundle/raw/master/02_fontconfig-iu/fontconfig-ultimate-git.tar.bz2
 )
 
@@ -17,6 +18,11 @@ build() {
 	cp -r $SRC/fontconfig-ultimate-git/conf.d.infinality $SRC/fontconfig-$version/conf.d.infinality
 
 	for p in $SRC/fontconfig-ultimate-git/fontconfig_patches/*.patch; do
+		if [[ $(echo $p | cut -d '_' -f 1) == 05 ]]; then
+			for p in $SRC/infinality_bundle-2.7.1/02_fontconfig-iu/*.patch; do
+				patch -p1 < $p
+			done
+		fi
 		patch -p1 < $p
 	done
 
@@ -30,7 +36,7 @@ build() {
 		--with-templateinfdir=/etc/fonts/conf.avail.infinality \
 		--with-xmldir=/etc/fonts \
 		--with-default-fonts=/usr/share/fonts \
-		--with-add-fonts=/usr/share/fonts \
+		--with-add-fonts=/usr/share/fonts
 
 	make
 	make DESTDIR=$PKG install
