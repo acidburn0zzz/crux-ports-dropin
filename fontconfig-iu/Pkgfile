@@ -44,6 +44,7 @@ build() {
 	install -Dm755 $SRC/fontconfig-ultimate-git/fontconfig_patches/fc-presets $PKG/usr/bin/fc-presets
 	install -d $PKG/etc/fonts/conf.avail.infinality
 	cp -r $SRC/fontconfig-ultimate-git/fontconfig_patches/{combi,free,ms} $PKG/etc/fonts/conf.avail.infinality
+	install -Dm755 $SRC//freetype/infinality-settings.sh $PKG/usr/share/doc/freetype-iu/infinality-settings.sh
 
 	rm -f $PKG/etc/fonts/conf.d/README
 }
