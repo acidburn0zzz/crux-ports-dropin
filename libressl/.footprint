@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/ssl/
+-rw-r--r--	root/root	etc/ssl/cert.pem
 drwxr-xr-x	root/root	etc/ssl/certs/
 -rw-r--r--	root/root	etc/ssl/openssl.cnf
 -rw-r--r--	root/root	etc/ssl/x509v3.cnf

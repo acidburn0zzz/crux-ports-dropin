@@ -1,7 +1,11 @@
 #!/bin/sh
 
-alias="libressl: openssl"
+alias1="libressl: openssl"
+alias2="libressl: ca-certificates"
 
-if [ -z "$(grep "$alias" /var/lib/pkg/prt-get.aliases)" ]; then
-	echo "$alias" >> /var/lib/pkg/prt-get.aliases
+if [ -z "$(grep "$alias1" /var/lib/pkg/prt-get.aliases)" ]; then
+	echo "$alias1" >> /var/lib/pkg/prt-get.aliases
+fi
+if [ -z "$(grep "$alias2" /var/lib/pkg/prt-get.aliases)" ]; then
+	echo "$alias2" >> /var/lib/pkg/prt-get.aliases
 fi

@@ -1,3 +1,3 @@
-This is a drop in replecement for openssl, make sure to uninstall openssl before installing.
+This is a drop in replecement for openssl, make sure to uninstall openssl and ca-certificates before installing.
 
 in the patches directory there are a few patches for packages that fail to build.
