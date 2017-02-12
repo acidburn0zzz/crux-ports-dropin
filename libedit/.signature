@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/6c37-dropin.pub
+RWSuX4fY9S2pNpQEZ+hElaE3cn82niHGZdMZCKSG0SQe5zu0Vw91QTCzgSYj/VtwkgZlUG8A9ZGGA3li2wZBxqUUWi9qUMmCCgM=
+SHA256 (Pkgfile) = c75ca1b4ee8a17ce308344b084f7e6c505b7c3fa19b4863d1263ac0844f6aa4e
+SHA256 (.footprint) = 99ef3aa16ac4e0699d004e56c2d8d9b29a7aa7cdcc4ee91229e9265dafb939e0
+SHA256 (libedit-20160903-3.1.tar.gz) = 0ccbd2e7d46097f136fcb1aaa0d5bc24e23bb73f57d25bee5a852a683eaa7567
+SHA256 (libedit_readlineh.patch) = 99918b096adba0ab6f704eba878465a2333510a563efac14943e0ef71c44bba2
