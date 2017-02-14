@@ -5,7 +5,7 @@
 
 name=cairo-iu
 version=1.14.8
-release=2017-01-11 # Using forked 2016.09.09
+release=2017-01-11
 source=(
 	http://cairographics.org/releases/cairo-$version.tar.xz
 	https://github.com/archfan/infinality_bundle/archive/2.7.1.zip

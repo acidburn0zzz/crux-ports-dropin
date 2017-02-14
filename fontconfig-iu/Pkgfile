@@ -5,7 +5,7 @@
 
 name=fontconfig-iu
 version=2.12.1
-release=2017-01-11 # Using forked 2016.09.09
+release=2017-01-11
 source=(
 	http://fontconfig.org/release/fontconfig-$version.tar.bz2
 	https://github.com/archfan/infinality_bundle/archive/2.7.1.tar.gz

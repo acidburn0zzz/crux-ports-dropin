@@ -5,7 +5,7 @@
 
 name=freetype-iu
 version=2.7.1
-release=2017-01-11 # Using forked 2016.09.09
+release=2017-01-11
 source=(
 	http://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.bz2
 	https://github.com/archfan/infinality_bundle/archive/2.7.1.tar.gz
