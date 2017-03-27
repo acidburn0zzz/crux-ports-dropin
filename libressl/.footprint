@@ -84,19 +84,19 @@ drwxr-xr-x	root/root	usr/include/openssl/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libcrypto.a
 -rw-r--r--	root/root	usr/lib/libcrypto.la
-lrwxrwxrwx	root/root	usr/lib/libcrypto.so -> libcrypto.so.41.0.0
-lrwxrwxrwx	root/root	usr/lib/libcrypto.so.41 -> libcrypto.so.41.0.0
--rw-r--r--	root/root	usr/lib/libcrypto.so.41.0.0
+lrwxrwxrwx	root/root	usr/lib/libcrypto.so -> libcrypto.so.41.0.1
+lrwxrwxrwx	root/root	usr/lib/libcrypto.so.41 -> libcrypto.so.41.0.1
+-rw-r--r--	root/root	usr/lib/libcrypto.so.41.0.1
 -rw-r--r--	root/root	usr/lib/libssl.a
 -rw-r--r--	root/root	usr/lib/libssl.la
-lrwxrwxrwx	root/root	usr/lib/libssl.so -> libssl.so.43.0.1
-lrwxrwxrwx	root/root	usr/lib/libssl.so.43 -> libssl.so.43.0.1
--rw-r--r--	root/root	usr/lib/libssl.so.43.0.1
+lrwxrwxrwx	root/root	usr/lib/libssl.so -> libssl.so.43.0.2
+lrwxrwxrwx	root/root	usr/lib/libssl.so.43 -> libssl.so.43.0.2
+-rw-r--r--	root/root	usr/lib/libssl.so.43.0.2
 -rw-r--r--	root/root	usr/lib/libtls.a
 -rw-r--r--	root/root	usr/lib/libtls.la
-lrwxrwxrwx	root/root	usr/lib/libtls.so -> libtls.so.15.0.3
-lrwxrwxrwx	root/root	usr/lib/libtls.so.15 -> libtls.so.15.0.3
--rw-r--r--	root/root	usr/lib/libtls.so.15.0.3
+lrwxrwxrwx	root/root	usr/lib/libtls.so -> libtls.so.15.0.4
+lrwxrwxrwx	root/root	usr/lib/libtls.so.15 -> libtls.so.15.0.4
+-rw-r--r--	root/root	usr/lib/libtls.so.15.0.4
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libcrypto.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libssl.pc
@@ -841,6 +841,7 @@ lrwxrwxrwx	root/root	usr/share/man/man3/ERR_GET_REASON.3.gz -> ERR_GET_LIB.3.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/ERR_PACK.3.gz -> ERR_load_strings.3.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/ERR_add_error_data.3.gz -> ERR_put_error.3.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/ERR_add_error_vdata.3.gz -> ERR_put_error.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/ERR_asprintf_error_data.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/ERR_clear_error.3.gz
 -rw-r--r--	root/root	usr/share/man/man3/ERR_error_string.3.gz
 lrwxrwxrwx	root/root	usr/share/man/man3/ERR_error_string_n.3.gz -> ERR_error_string.3.gz

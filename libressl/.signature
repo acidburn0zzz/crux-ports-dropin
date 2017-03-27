@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNroOnK6FshClbGdjBkjXnwp/wtBm3Y4mpyCpjbWyny40n6LI7xccXUwwxyfnue2qYtK/SiUj4gq4lFOrIa2aYg0=
-SHA256 (Pkgfile) = da29cf438fbbdaa66aae077c3fcd2daf4ca43e887493b754cb0449b0db1f1202
-SHA256 (.footprint) = 2820b1f986f41cbac16c7a2893bd8b0a06ae32cacaa7020d0141ff6abc0c9b70
-SHA256 (libressl-2.5.1.tar.gz) = f71ae0a824b78fb1a47ffa23c9c26e9d96c5c9b29234eacedce6b4c7740287cd
+RWSuX4fY9S2pNpCopyjKt5+0+UIWn7BSqEloQJ7XLCVF8i2AKNGw7XV6hmpeouEr+K3gFIJy0qmaoL/5L5xeFuYi93BbQU3o9A0=
+SHA256 (Pkgfile) = 2b83a9a5cfa0d782493d35101dfb0af645a051bb651d9574f8845ac0096fc1c5
+SHA256 (.footprint) = 4c1c103af10a62327a98dd287bc46bb165b5d52e479b9c5813cec5ecfe2d0b70
+SHA256 (libressl-2.5.2.tar.gz) = 0ffa7d70809284a4ac96e965918a61c1d7930bca865457a7db0ff0afc8201c82
 SHA256 (mksslcert.sh) = d01cfd061b792f4f7444429582c5c9e83aaa7fc63cafd05669fd3f2970dff779
