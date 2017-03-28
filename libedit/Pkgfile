@@ -5,18 +5,20 @@
 
 name=libedit
 version=20160903-3.1
-release=1
+release=2
 source=(
 	http://thrysoee.dk/editline/$name-$version.tar.gz
 	libedit_readlineh.patch
+	libedit-export-event-hook.patch
 )
 
 build() {
 	cd $name-$version
 
 	patch -p1 < $SRC/libedit_readlineh.patch
+	patch -p1 < $SRC/libedit-export-event-hook.patch
 
-	./configure --prefix=/usr
+	./configure --prefix=/usr --enable-widec
 
 	make
 	make DESTDIR=$PKG install
