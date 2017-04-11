@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNtZ3XT0Xcbmlrz+63ylm7Yr8fdNiGFkinQx6SmLbbAzEjDfM1im1gImHbdZrPouCuikfcXgt7Ss+6CE9dMOv4w4=
-SHA256 (Pkgfile) = 86d5dfaf2a31b46a590f9d6ed2264ab16f355c520fc9663b45ef025016996b7c
-SHA256 (.footprint) = 99ef3aa16ac4e0699d004e56c2d8d9b29a7aa7cdcc4ee91229e9265dafb939e0
-SHA256 (libedit-20160903-3.1.tar.gz) = 0ccbd2e7d46097f136fcb1aaa0d5bc24e23bb73f57d25bee5a852a683eaa7567
+RWSuX4fY9S2pNvgiKhgQbCY41lhqo1zPC9G4QbvNFGOfyfkY5rPLh+tmdehnSwnuGU+wwZqUGbDZkpAjyO6DqLajBJi1WKE2BAE=
+SHA256 (Pkgfile) = d3a07adb86cda3df2c5ab580534c322f26f43c4ec97a4d36ba9c2febcd1a6b6d
+SHA256 (.footprint) = 5b5f7eb5d53d615d04470b7f267d588d7ea5df254056539339199792a6d13e38
+SHA256 (libedit-20170329-3.1.tar.gz) = 91f2d90fbd2a048ff6dad7131d9a39e690fd8a8fd982a353f1333dd4017dd4be
 SHA256 (libedit_readlineh.patch) = 99918b096adba0ab6f704eba878465a2333510a563efac14943e0ef71c44bba2
 SHA256 (libedit-export-event-hook.patch) = 3a3ea0751a2a217e658a1d7e9f630b5cdb7f93d160f082bd883ad5eaf52b581a

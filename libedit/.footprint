@@ -10,9 +10,9 @@ lrwxrwxrwx	root/root	usr/include/readline/readline.h -> /usr/include/editline/re
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libedit.a
 -rwxr-xr-x	root/root	usr/lib/libedit.la
-lrwxrwxrwx	root/root	usr/lib/libedit.so -> libedit.so.0.0.55
-lrwxrwxrwx	root/root	usr/lib/libedit.so.0 -> libedit.so.0.0.55
--rwxr-xr-x	root/root	usr/lib/libedit.so.0.0.55
+lrwxrwxrwx	root/root	usr/lib/libedit.so -> libedit.so.0.0.56
+lrwxrwxrwx	root/root	usr/lib/libedit.so.0 -> libedit.so.0.0.56
+-rwxr-xr-x	root/root	usr/lib/libedit.so.0.0.56
 lrwxrwxrwx	root/root	usr/lib/libreadline.a -> /usr/lib/libedit.a
 lrwxrwxrwx	root/root	usr/lib/libreadline.so -> /usr/lib/libedit.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/

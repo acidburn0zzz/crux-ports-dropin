@@ -4,8 +4,8 @@
 # Depends on:
 
 name=libedit
-version=20160903-3.1
-release=2
+version=20170329-3.1
+release=1
 source=(
 	http://thrysoee.dk/editline/$name-$version.tar.gz
 	libedit_readlineh.patch
@@ -18,7 +18,7 @@ build() {
 	patch -p1 < $SRC/libedit_readlineh.patch
 	patch -p1 < $SRC/libedit-export-event-hook.patch
 
-	./configure --prefix=/usr --enable-widec
+	./configure --prefix=/usr
 
 	make
 	make DESTDIR=$PKG install
