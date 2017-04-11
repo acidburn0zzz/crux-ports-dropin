@@ -1,13 +1,13 @@
 # Description: LibreSSL is a version of the TLS/crypto stack forked from OpenSSL.
-# URL:         http://www.libressl.org
+# URL:         https://www.libressl.org
 # Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
 # Depends on:
 
 name=libressl
-version=2.5.2
+version=2.5.3
 release=1
 source=(
-	http://ftp.openbsd.org/pub/OpenBSD/LibreSSL/$name-$version.tar.gz
+	https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/$name-$version.tar.gz
 	mksslcert.sh
 )
 
