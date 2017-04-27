@@ -1,9 +1,0 @@
-untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNphj5KdblPcEMULFAhhCq6Y+7crxRhyERpyvJzvuJj7ahIc7m7FTnZEzTgfYZ5J5dWB8OoyhwPjntfZi3mMlggY=
-SHA256 (Pkgfile) = 073250e706c455dfccae413710fd53bec96cb22cd55335c342652853aa60ff2a
-SHA256 (.footprint) = 7a0976e9fdfe0c1c0ece2c2e43d164c4559cdcdd2776ad6f872af1681011279a
-SHA256 (gtk+-2.24.30.tar.xz) = 0d15cec3b6d55c60eac205b1f3ba81a1ed4eadd9d0f8e7c508bc7065d0c4ca50
-SHA256 (xid-collision-debug.patch) = d758bb93e59df15a4ea7732cf984d1c3c19dff67c94b957575efea132b8fe558
-SHA256 (gtk2-filechooser-icon-view.patch) = 46be95950e352bb41997a8672678ad52dc25d59f95d937c351291f1418729292
-SHA256 (gtk.immodules) = 728ffab4734db8f3304fb9dd6531fd20acd6c7078b8eec6a3d1e4fd4bd247b0b
-SHA256 (gtk-register.sh) = d773b64a65410dfe5d9b3ac4eab163473fc28994973ea2bad692b36a988e11ad

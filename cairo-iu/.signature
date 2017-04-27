@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNl1jIgM9xxrq4WlyQqyQEoBsF7+FU1t6ae3R2WawdHcP8qOP4wHbdtBwxC6HLXS5oxZwhtCA5ShXwbryFOsUMAE=
-SHA256 (Pkgfile) = 9d88db1ab0640d19654194996ecfd998b3765821a078c79dcb15e4534441e90c
-SHA256 (.footprint) = d8f1c4b3f109b81b16076d76463f7cb1cd88d139291ed18cb668e418983a53f2
-SHA256 (cairo-1.14.8.tar.xz) = d1f2d98ae9a4111564f6de4e013d639cf77155baf2556582295a0f00a9bc5e20
-SHA256 (2.7.1.zip) = 56a502d1d927234c817d5684edbf40fcaeae16c0fda414a182011794efbf0e9e
