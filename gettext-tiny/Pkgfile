@@ -1,0 +1,19 @@
+# Description: stub and/or lightweight replacements of the gnu gettext suite.
+# URL:         https://github.com/sabotage-linux/gettext-tiny
+# Maintainer:  6c37 Team, https://github.com/6c37/crux-ports-dropin/issues
+# Depends on:
+
+name=gettext-tiny
+version=0.1.0
+release=1
+source=(https://github.com/sabotage-linux/$name/archive/v$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make
+	make prefix=/usr DESTDIR=$PKG install
+
+	# Provided by glibc
+	rm $PKG/usr/include/libintl.h
+}
