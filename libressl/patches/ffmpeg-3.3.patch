@@ -1,6 +1,6 @@
-diff -Naur ffmpeg-3.2.orig/libavformat/tls_openssl.c ffmpeg-3.2/libavformat/tls_openssl.c
---- ffmpeg-3.2.orig/libavformat/tls_openssl.c	2016-10-28 10:20:46.872620829 -0700
-+++ ffmpeg-3.2/libavformat/tls_openssl.c	2016-10-28 10:22:46.153045913 -0700
+diff -Naur ffmpeg-3.3.orig/libavformat/tls_openssl.c ffmpeg-3.3/libavformat/tls_openssl.c
+--- ffmpeg-3.3.orig/libavformat/tls_openssl.c	2017-04-14 09:44:45.035482446 -0700
++++ ffmpeg-3.3/libavformat/tls_openssl.c	2017-04-14 09:47:43.399194503 -0700
 @@ -43,7 +43,7 @@
      TLSShared tls_shared;
      SSL_CTX *ctx;
@@ -25,10 +25,10 @@ diff -Naur ffmpeg-3.2.orig/libavformat/tls_openssl.c ffmpeg-3.2/libavformat/tls_
  
 -#if OPENSSL_VERSION_NUMBER >= 0x1010000fL
 +#if OPENSSL_VERSION_NUMBER >= 0x1010000fL && !defined(LIBRESSL_VERSION_NUMBER)
- #define GET_BIO_DATA(x) BIO_get_data(x);
+ #define GET_BIO_DATA(x) BIO_get_data(x)
  #else
- #define GET_BIO_DATA(x) (x)->ptr;
-@@ -133,7 +133,7 @@
+ #define GET_BIO_DATA(x) (x)->ptr
+@@ -129,7 +129,7 @@
      return url_bio_bwrite(b, str, strlen(str));
  }
  
@@ -37,7 +37,7 @@ diff -Naur ffmpeg-3.2.orig/libavformat/tls_openssl.c ffmpeg-3.2/libavformat/tls_
  static BIO_METHOD url_bio_method = {
      .type = BIO_TYPE_SOURCE_SINK,
      .name = "urlprotocol bio",
-@@ -212,7 +212,7 @@
+@@ -208,7 +208,7 @@
          SSL_CTX_free(c->ctx);
      if (c->tls_shared.tcp)
          ffurl_close(c->tls_shared.tcp);
@@ -46,7 +46,7 @@ diff -Naur ffmpeg-3.2.orig/libavformat/tls_openssl.c ffmpeg-3.2/libavformat/tls_
      if (c->url_bio_method)
          BIO_meth_free(c->url_bio_method);
  #endif
-@@ -265,7 +265,7 @@
+@@ -266,7 +266,7 @@
          ret = AVERROR(EIO);
          goto fail;
      }
