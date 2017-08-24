@@ -1,0 +1,28 @@
+# Description: A library that handles input devices for display servers.
+# URL:         https://wayland.freedesktop.org/libinput/doc/latest/index.html
+# Maintainer:  onodera, https://github.com/onodra-punpun/crux-ports/issues
+# Depends on:  mtdev xorg-libevdev libwacom
+
+name=libinput-wacom
+version=1.8.1
+release=1
+source=(https://www.freedesktop.org/software/libinput/libinput-$version.tar.xz)
+
+build() {
+	cd libinput-$version
+
+	CONFIG_SHELL=/bin/bash \
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--with-udev-dir=/lib/udev \
+		--disable-documentation \
+		--disable-debug-gui \
+		--disable-tests
+
+	make
+	make DESTDIR=$PKG install
+
+	install -d $PKG/etc/udev
+	mv $PKG/lib/udev/hwdb.d $PKG/etc/udev
+}
