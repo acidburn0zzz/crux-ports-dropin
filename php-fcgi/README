@@ -1,0 +1,1 @@
+This is a drop in replecement for php-fcgi, make sure to uninstall php-fcgi before installing.
