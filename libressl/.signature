@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNhokWOdzqmcRAehvxW3IlrbB1wZGqwyjJNTJ+3n0R/uLbpejj3pB1qJ8nU5DwOzHGh9YUfijz/JZyPFiP/9XBws=
-SHA256 (Pkgfile) = 170db57a88ecc5e81c4e8894bc8d9bb76610b88a2fd20b8753c550725fdfe01e
+RWSuX4fY9S2pNkPzp80fKEUD3QTN28f1P1KJdpyNxVox6c3hMvBvKFOz3qNR8D6BH2f8I+Y9u+SlgwN0J7J9n3PORKvLtc1lcgo=
+SHA256 (Pkgfile) = 98c0dca4c7e947bc5d59173c52e53b7da93fbce265c108ee9a6dd8bd60cf0f9e
 SHA256 (.footprint) = 91d8f79468e22cdd99a897355f632148fb2917e04cb0c679500f35052f9bd582
-SHA256 (libressl-2.6.3.tar.gz) = aead6598263171b96970da0d881e616d0813b69b35ebdc5991f87ff2ea7f5c98
+SHA256 (libressl-2.6.4.tar.gz) = 638a20c2f9e99ee283a841cd787ab4d846d1880e180c4e96904fc327d419d11f
 SHA256 (mksslcert.sh) = d01cfd061b792f4f7444429582c5c9e83aaa7fc63cafd05669fd3f2970dff779
