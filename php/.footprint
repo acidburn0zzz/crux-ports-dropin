@@ -20,7 +20,6 @@ drwxr-xr-x	root/root	usr/include/php/TSRM/
 -rw-r--r--	root/root	usr/include/php/TSRM/tsrm_config.h
 -rw-r--r--	root/root	usr/include/php/TSRM/tsrm_config.w32.h
 -rw-r--r--	root/root	usr/include/php/TSRM/tsrm_config_common.h
--rw-r--r--	root/root	usr/include/php/TSRM/tsrm_nw.h
 -rw-r--r--	root/root	usr/include/php/TSRM/tsrm_strtok_r.h
 -rw-r--r--	root/root	usr/include/php/TSRM/tsrm_win32.h
 drwxr-xr-x	root/root	usr/include/php/Zend/
@@ -78,6 +77,8 @@ drwxr-xr-x	root/root	usr/include/php/Zend/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_signal.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_smart_str.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_smart_str_public.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_smart_string.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_smart_string_public.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_sort.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_stack.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_stream.h
@@ -98,7 +99,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/date/
 drwxr-xr-x	root/root	usr/include/php/ext/date/lib/
 -rw-r--r--	root/root	usr/include/php/ext/date/lib/timelib.h
 -rw-r--r--	root/root	usr/include/php/ext/date/lib/timelib_config.h
--rw-r--r--	root/root	usr/include/php/ext/date/lib/timelib_structs.h
 -rw-r--r--	root/root	usr/include/php/ext/date/php_date.h
 drwxr-xr-x	root/root	usr/include/php/ext/dom/
 -rw-r--r--	root/root	usr/include/php/ext/dom/xml_common.h
@@ -296,7 +296,6 @@ drwxr-xr-x	root/root	usr/include/php/main/streams/
 -rw-r--r--	root/root	usr/include/php/main/streams/php_stream_transport.h
 -rw-r--r--	root/root	usr/include/php/main/streams/php_stream_userspace.h
 -rw-r--r--	root/root	usr/include/php/main/streams/php_streams_int.h
--rw-r--r--	root/root	usr/include/php/main/win95nt.h
 drwxr-xr-x	root/root	usr/include/php/sapi/
 drwxr-xr-x	root/root	usr/include/php/sapi/cli/
 -rw-r--r--	root/root	usr/include/php/sapi/cli/cli.h
