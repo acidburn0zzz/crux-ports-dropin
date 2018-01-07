@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNtnJmCVRZn7g/oHoR7JhkSL4o1tuHJaBm3rybR9DFDKPGvb59TFDRAbpCUeP95fQgOEvN29h5vEnnJzo9y+GsQw=
-SHA256 (Pkgfile) = 326d31f881dd4621735e0b43ab0ed594d6b64c66a374ad31f0ad50813192b660
+RWSuX4fY9S2pNkXEg6cJ/Te6V/yO5b440gqNZiShLtVIHw5QPzWph8ubLHZpKCFk3UNkmsEOt83C/GmTXNRNievIIQpjFiEQsgk=
+SHA256 (Pkgfile) = 176af39b529a63ca1b8b2abe69dc59e88064909f3bd175206dd3ce4f2df1d50c
 SHA256 (.footprint) = 7fd977f22bed7f8b841ede1b8d4a6367d18e4ead1309611b8cd68ecc5c44e6b6
-SHA256 (pkgconf-1.3.90.tar.gz) = 37241124c324dd57ad6924a4484b85d480e6b56e8a3c0560a119806dd54350fd
+SHA256 (pkgconf-1.4.0.tar.gz) = 3cf32cac4abb47602fb18067f9aa60447427381ee0a77fda11ca4ebfb24ff95c
