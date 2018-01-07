@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNkkRFIQqov/1cBpWRTNIHGrZxJfyojW2zhzIX3wGecM4Na2pSxHe7RH73zuG2eunpnZRhxLP/fZhpJZweatW3wI=
-SHA256 (Pkgfile) = 82d71dabc6765f9a268c621507e241d190fbc1be84c10794ff05ebdbaad5b7c1
+RWSuX4fY9S2pNn1xzKSOA4putvW6hUNZst73HGjIPHV9CVajvEDxV3pOOVSV2PtWqugYWMuRT8Ztgc3NEY4UZBcq1OQqSOJ0KAM=
+SHA256 (Pkgfile) = 44ce3c5f4a7d5eddb5d3ab5a7a35acf43b485d0e33d39f48cdd5aaedcdd7ad6d
 SHA256 (.footprint) = 1532d80c4316cde2efba9a408ac2cb79af82eccca64735962b613f29db5916c8
-SHA256 (php-7.2.0.tar.xz) = 87572a6b924670a5d4aac276aaa4a94321936283df391d702c845ffc112db095
+SHA256 (php-7.2.1.tar.xz) = 6c6cf82fda6660ed963821eb0525214bb3547e8e29f447b9c15b2d8e6efd8822
