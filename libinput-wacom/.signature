@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/6c37-dropin.pub
-RWSuX4fY9S2pNqkh6QZG3q5AQVLPXS80MJ32qs04D7hxE9Xwas94bUJkBOzxVkGBP6heTCiV0C096nnNHo8BY4fL/v0FCJlBEg0=
-SHA256 (Pkgfile) = c79547beed47f8f0aa7c10887286ee435c95257243620a99b7af208c33c311f9
+RWSuX4fY9S2pNqGmeVd1m5zu2VTNElBVwPbMbHoj/abZgkFDOKt13BPbSThlmGrj0oNhPDv10Dd+VVLCKsgwtlLFosucRItiVQc=
+SHA256 (Pkgfile) = c6f9770f6f0ced6ea5cd8ae7febf21930a4de27fa655fc1e64179c769ca809a1
 SHA256 (.footprint) = 2ef36b00bae08e2b61ada6f7900073debae3335eeb708be2dacfd5d66fa8cc31
-SHA256 (libinput-1.10.1.tar.xz) = 877522d76575e1945c7b3a9eb92cab90d5ad0379c4ef0dbe13054e489d4c6665
+SHA256 (libinput-1.10.2.tar.xz) = 1509766d348efe8c6da4285efad3acff4a4c955defb43309e3e4851849197bb9

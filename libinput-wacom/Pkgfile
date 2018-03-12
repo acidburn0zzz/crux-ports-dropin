@@ -4,7 +4,7 @@
 # Depends on:  mtdev xorg-libevdev libwacom meson ninja
 
 name=libinput-wacom
-version=1.10.1
+version=1.10.2
 release=1
 source=(https://www.freedesktop.org/software/libinput/libinput-$version.tar.xz)
 
@@ -13,12 +13,12 @@ build() {
 
 	meson build \
 		--prefix /usr \
-			--libexecdir /usr/lib \
-			--buildtype release \
-			-Ddebug-gui=false \
-			-Ddocumentation=false \
-			-Dtests=false \
-			-Dudev-dir=/lib/udev
+		--libexecdir /usr/lib \
+		--buildtype release \
+		-Ddebug-gui=false \
+		-Ddocumentation=false \
+		-Dtests=false \
+		-Dudev-dir=/lib/udev
 
 	DESTDIR=$PKG ninja -C build -j ${JOBS:-1} install
 
