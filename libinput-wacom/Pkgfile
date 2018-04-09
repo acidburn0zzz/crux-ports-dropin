@@ -4,7 +4,7 @@
 # Depends on:  mtdev xorg-libevdev libwacom meson ninja
 
 name=libinput-wacom
-version=1.10.3
+version=1.10.4
 release=1
 source=(https://www.freedesktop.org/software/libinput/libinput-$version.tar.xz)
 
